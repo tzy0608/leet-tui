@@ -187,6 +187,7 @@ func (p *ProblemDetail) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			p.refreshCodeView()
 		}
 		p.statusMsg = ""
+		return p, tea.ClearScreen
 
 	case SubmitResultMsg:
 		p.loading = false
