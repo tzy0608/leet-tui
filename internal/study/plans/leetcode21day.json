@@ -1,0 +1,112 @@
+{
+  "name": "LeetCode 21天刷题计划",
+  "slug": "leetcode-21day",
+  "description": "21天75道高频题系统刷题计划，涵盖数组、链表、树、图、动态规划等核心专题",
+  "groups": [
+    {
+      "topic": "数组 & 哈希表",
+      "day": 1,
+      "problems": ["two-sum", "group-anagrams", "longest-consecutive-sequence"]
+    },
+    {
+      "topic": "双指针 & 滑动窗口",
+      "day": 2,
+      "problems": ["3sum", "longest-substring-without-repeating-characters", "minimum-window-substring", "find-all-anagrams-in-a-string"]
+    },
+    {
+      "topic": "链表基础",
+      "day": 3,
+      "problems": ["reverse-linked-list", "merge-two-sorted-lists", "linked-list-cycle", "linked-list-cycle-ii"]
+    },
+    {
+      "topic": "链表进阶",
+      "day": 4,
+      "problems": ["reverse-nodes-in-k-group", "merge-k-sorted-lists", "lru-cache"]
+    },
+    {
+      "topic": "二叉树遍历",
+      "day": 5,
+      "problems": ["binary-tree-inorder-traversal", "binary-tree-level-order-traversal", "maximum-depth-of-binary-tree", "invert-binary-tree"]
+    },
+    {
+      "topic": "二叉树经典题",
+      "day": 6,
+      "problems": ["lowest-common-ancestor-of-a-binary-tree", "binary-tree-maximum-path-sum", "construct-binary-tree-from-preorder-and-inorder-traversal"]
+    },
+    {
+      "topic": "二叉搜索树 & 序列化",
+      "day": 7,
+      "problems": ["validate-binary-search-tree", "kth-smallest-element-in-a-bst", "serialize-and-deserialize-binary-tree"]
+    },
+    {
+      "topic": "二分查找",
+      "day": 8,
+      "problems": ["binary-search", "search-in-rotated-sorted-array", "find-first-and-last-position-of-element-in-sorted-array", "median-of-two-sorted-arrays"]
+    },
+    {
+      "topic": "栈 & 单调栈",
+      "day": 9,
+      "problems": ["valid-parentheses", "min-stack", "daily-temperatures", "largest-rectangle-in-histogram"]
+    },
+    {
+      "topic": "堆 & 优先队列",
+      "day": 10,
+      "problems": ["kth-largest-element-in-an-array", "top-k-frequent-elements", "find-median-from-data-stream"]
+    },
+    {
+      "topic": "回溯算法",
+      "day": 11,
+      "problems": ["permutations", "subsets", "combination-sum", "generate-parentheses"]
+    },
+    {
+      "topic": "BFS & DFS",
+      "day": 12,
+      "problems": ["number-of-islands", "rotting-oranges", "course-schedule", "course-schedule-ii"]
+    },
+    {
+      "topic": "动态规划入门",
+      "day": 13,
+      "problems": ["climbing-stairs", "house-robber", "coin-change", "perfect-squares"]
+    },
+    {
+      "topic": "动态规划-子序列",
+      "day": 14,
+      "problems": ["longest-increasing-subsequence", "longest-common-subsequence", "edit-distance"]
+    },
+    {
+      "topic": "动态规划-区间/背包",
+      "day": 15,
+      "problems": ["partition-equal-subset-sum", "target-sum", "burst-balloons"]
+    },
+    {
+      "topic": "图论 & 并查集",
+      "day": 16,
+      "problems": ["number-of-provinces", "redundant-connection", "network-delay-time"]
+    },
+    {
+      "topic": "前缀和 & 差分",
+      "day": 17,
+      "problems": ["subarray-sum-equals-k", "product-of-array-except-self", "maximum-subarray", "merge-intervals"]
+    },
+    {
+      "topic": "贪心算法",
+      "day": 18,
+      "problems": ["jump-game", "jump-game-ii", "partition-labels"]
+    },
+    {
+      "topic": "系统设计相关算法",
+      "day": 19,
+      "problems": ["lfu-cache", "insert-delete-getrandom-o1", "design-twitter"]
+    },
+    {
+      "topic": "综合复习-高频精选(上)",
+      "day": 20,
+      "problems": ["longest-palindromic-substring", "container-with-most-water", "trapping-rain-water", "rotate-image"]
+    },
+    {
+      "topic": "综合复习-高频精选(下)",
+      "day": 21,
+      "problems": ["next-permutation", "sort-list", "maximum-product-subarray", "majority-element"]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Blind 75",
+  "slug": "blind75",
+  "description": "75 essential LeetCode problems curated by Blind",
+  "groups": [
+    {
+      "topic": "Array",
+      "day": 1,
+      "problems": ["two-sum", "best-time-to-buy-and-sell-stock", "contains-duplicate", "product-of-array-except-self", "maximum-subarray"]
+    },
+    {
+      "topic": "Array",
+      "day": 2,
+      "problems": ["maximum-product-subarray", "find-minimum-in-rotated-sorted-array", "search-in-rotated-sorted-array", "3sum", "container-with-most-water"]
+    },
+    {
+      "topic": "Binary",
+      "day": 3,
+      "problems": ["sum-of-two-integers", "number-of-1-bits", "counting-bits", "missing-number", "reverse-bits"]
+    },
+    {
+      "topic": "Dynamic Programming",
+      "day": 4,
+      "problems": ["climbing-stairs", "coin-change", "longest-increasing-subsequence", "longest-common-subsequence"]
+    },
+    {
+      "topic": "Dynamic Programming",
+      "day": 5,
+      "problems": ["word-break", "combination-sum-iv", "house-robber", "house-robber-ii", "decode-ways", "unique-paths", "jump-game"]
+    },
+    {
+      "topic": "Graph",
+      "day": 6,
+      "problems": ["clone-graph", "course-schedule", "pacific-atlantic-water-flow", "number-of-islands"]
+    },
+    {
+      "topic": "Graph",
+      "day": 7,
+      "problems": ["longest-consecutive-sequence", "alien-dictionary", "graph-valid-tree", "number-of-connected-components-in-an-undirected-graph"]
+    },
+    {
+      "topic": "Interval",
+      "day": 8,
+      "problems": ["insert-interval", "merge-intervals", "non-overlapping-intervals", "meeting-rooms", "meeting-rooms-ii"]
+    },
+    {
+      "topic": "Linked List",
+      "day": 9,
+      "problems": ["reverse-linked-list", "detect-cycle-in-a-linked-list", "merge-two-sorted-lists", "merge-k-sorted-lists", "remove-nth-node-from-end-of-list", "reorder-list"]
+    },
+    {
+      "topic": "Matrix",
+      "day": 10,
+      "problems": ["set-matrix-zeroes", "spiral-matrix", "rotate-image", "word-search"]
+    },
+    {
+      "topic": "String",
+      "day": 11,
+      "problems": ["longest-substring-without-repeating-characters", "longest-repeating-character-replacement", "minimum-window-substring", "valid-anagram", "group-anagrams", "valid-parentheses"]
+    },
+    {
+      "topic": "String",
+      "day": 12,
+      "problems": ["longest-palindromic-substring", "palindromic-substrings", "encode-and-decode-strings"]
+    },
+    {
+      "topic": "Tree",
+      "day": 13,
+      "problems": ["maximum-depth-of-binary-tree", "same-tree", "invert-binary-tree", "binary-tree-maximum-path-sum", "binary-tree-level-order-traversal"]
+    },
+    {
+      "topic": "Tree",
+      "day": 14,
+      "problems": ["serialize-and-deserialize-binary-tree", "subtree-of-another-tree", "construct-binary-tree-from-preorder-and-inorder-traversal", "validate-binary-search-tree", "kth-smallest-element-in-a-bst", "lowest-common-ancestor-of-a-binary-search-tree", "implement-trie-prefix-tree"]
+    },
+    {
+      "topic": "Tree",
+      "day": 15,
+      "problems": ["design-add-and-search-words-data-structure", "word-search-ii"]
+    },
+    {
+      "topic": "Heap",
+      "day": 16,
+      "problems": ["merge-k-sorted-lists", "top-k-frequent-elements", "find-median-from-data-stream"]
+    }
+  ]
+}
