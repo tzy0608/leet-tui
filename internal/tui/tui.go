@@ -126,6 +126,21 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.statusBar.SetStatus("Error: " + msg.Err.Error())
 		return m, nil
 
+	case page.DashboardLoadedMsg:
+		m.statusBar.SetStatus("")
+		cmd := m.routeToActivePage(msg)
+		cmds = append(cmds, cmd)
+		cmds = append(cmds, m.loadProblemStatuses())
+		return m, tea.Batch(cmds...)
+
+	case page.ProblemStatusUpdatedMsg:
+		cmd := m.routeToActivePage(msg)
+		cmds = append(cmds, cmd)
+		if m.activePage == page.DashboardPage {
+			cmds = append(cmds, m.loadDashboardStats())
+		}
+		return m, tea.Batch(cmds...)
+
 	case page.ProblemsLoadedMsg:
 		// Route to active page first, then trigger async status loading
 		cmd := m.routeToActivePage(msg)
@@ -537,7 +552,23 @@ func (m *Model) submitCode(req page.SubmitRequestMsg) tea.Cmd {
 		ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 		defer cancel()
 		result, err := m.lcClient.SubmitCode(ctx, req.TitleSlug, req.QuestionID, req.Lang, req.Code)
+		if err == nil && result != nil && result.StatusCode == 10 {
+			_ = m.queries.UpdateProblemStatus(ctx, sqlc.UpdateProblemStatusParams{
+				Status:    sql.NullString{String: "ac", Valid: true},
+				TitleSlug: req.TitleSlug,
+			})
+		}
 		return page.SubmitResultMsg{Result: result, Err: err}
+	}
+}
+
+func (m *Model) loadDashboardStats() tea.Cmd {
+	return func() tea.Msg {
+		stats, err := study.GetStats(context.Background(), m.queries, m.cfg.GetSite())
+		if err != nil {
+			return nil
+		}
+		return page.DashboardStatsMsg{Stats: stats}
 	}
 }
 

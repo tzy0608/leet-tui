@@ -19,6 +19,11 @@ type DashboardLoadedMsg struct {
 	Stats *study.Stats
 }
 
+// DashboardStatsMsg carries refreshed stats for the dashboard.
+type DashboardStatsMsg struct {
+	Stats *study.Stats
+}
+
 // Dashboard is the home page showing the daily queue and stats.
 type Dashboard struct {
 	queue      *study.DailyQueue
@@ -89,6 +94,8 @@ func (d *Dashboard) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case DashboardLoadedMsg:
 		d.SetData(msg)
+	case DashboardStatsMsg:
+		d.stats = msg.Stats
 	case tea.KeyMsg:
 		if !d.focused {
 			return d, nil
