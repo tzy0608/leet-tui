@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 
 	_ "modernc.org/sqlite"
 )
@@ -75,7 +76,9 @@ func migrate(db *sql.DB) error {
 		}
 
 		if _, err := db.Exec(string(data)); err != nil {
-			return fmt.Errorf("execute migration %s: %w", entry.Name(), err)
+			if !strings.Contains(err.Error(), "duplicate column") {
+				return fmt.Errorf("execute migration %s: %w", entry.Name(), err)
+			}
 		}
 
 		if _, err := db.Exec("INSERT INTO schema_migrations (filename) VALUES (?)", entry.Name()); err != nil {
