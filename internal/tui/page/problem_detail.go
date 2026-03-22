@@ -10,11 +10,11 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/editor"
-	"github.com/leet-tui/leet-tui/internal/leetcode"
-	"github.com/leet-tui/leet-tui/internal/tui/components/dialog"
-	"github.com/leet-tui/leet-tui/internal/tui/styles"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/editor"
+	"github.com/tzy0608/leet-tui/internal/leetcode"
+	"github.com/tzy0608/leet-tui/internal/tui/components/dialog"
+	"github.com/tzy0608/leet-tui/internal/tui/styles"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // ProblemDetailLoadedMsg is sent when problem details are fetched.

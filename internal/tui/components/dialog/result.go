@@ -6,8 +6,8 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/leetcode"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/leetcode"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // ResultDismissMsg is sent when the user closes the result dialog.

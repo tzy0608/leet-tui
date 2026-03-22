@@ -11,17 +11,17 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	"fmt"
 
-	"github.com/leet-tui/leet-tui/internal/config"
-	"github.com/leet-tui/leet-tui/internal/db/sqlc"
-	"github.com/leet-tui/leet-tui/internal/leetcode"
-	"github.com/leet-tui/leet-tui/internal/srs"
-	"github.com/leet-tui/leet-tui/internal/study"
-	"github.com/leet-tui/leet-tui/internal/tui/components/help"
-	"github.com/leet-tui/leet-tui/internal/tui/components/statusbar"
-	"github.com/leet-tui/leet-tui/internal/tui/components/topicpanel"
-	"github.com/leet-tui/leet-tui/internal/tui/layout"
-	"github.com/leet-tui/leet-tui/internal/tui/page"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/config"
+	"github.com/tzy0608/leet-tui/internal/db/sqlc"
+	"github.com/tzy0608/leet-tui/internal/leetcode"
+	"github.com/tzy0608/leet-tui/internal/srs"
+	"github.com/tzy0608/leet-tui/internal/study"
+	"github.com/tzy0608/leet-tui/internal/tui/components/help"
+	"github.com/tzy0608/leet-tui/internal/tui/components/statusbar"
+	"github.com/tzy0608/leet-tui/internal/tui/components/topicpanel"
+	"github.com/tzy0608/leet-tui/internal/tui/layout"
+	"github.com/tzy0608/leet-tui/internal/tui/page"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // Model is the root TUI model that manages page routing and global state.

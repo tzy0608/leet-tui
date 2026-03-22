@@ -7,10 +7,10 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/study"
-	"github.com/leet-tui/leet-tui/internal/tui/components/stats"
-	"github.com/leet-tui/leet-tui/internal/tui/styles"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/study"
+	"github.com/tzy0608/leet-tui/internal/tui/components/stats"
+	"github.com/tzy0608/leet-tui/internal/tui/styles"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // DashboardLoadedMsg carries data needed to render the dashboard.

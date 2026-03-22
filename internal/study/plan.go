@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/leet-tui/leet-tui/internal/db/sqlc"
-	"github.com/leet-tui/leet-tui/internal/srs"
-	"github.com/leet-tui/leet-tui/internal/study/plans"
+	"github.com/tzy0608/leet-tui/internal/db/sqlc"
+	"github.com/tzy0608/leet-tui/internal/srs"
+	"github.com/tzy0608/leet-tui/internal/study/plans"
 )
 
 // Engine manages study plans and daily queue generation.

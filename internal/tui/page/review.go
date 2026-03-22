@@ -9,11 +9,11 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/leetcode"
-	"github.com/leet-tui/leet-tui/internal/srs"
-	"github.com/leet-tui/leet-tui/internal/tui/components/dialog"
-	"github.com/leet-tui/leet-tui/internal/tui/styles"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/leetcode"
+	"github.com/tzy0608/leet-tui/internal/srs"
+	"github.com/tzy0608/leet-tui/internal/tui/components/dialog"
+	"github.com/tzy0608/leet-tui/internal/tui/styles"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // ReviewQueueMsg provides the list of due review items.

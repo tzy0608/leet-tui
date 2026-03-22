@@ -3,7 +3,7 @@ package dialog
 import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // PickedMsg is sent when the user selects an item.

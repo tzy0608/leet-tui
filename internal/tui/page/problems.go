@@ -4,12 +4,12 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/leetcode"
-	"github.com/leet-tui/leet-tui/internal/tui/components/problemlist"
-	"github.com/leet-tui/leet-tui/internal/tui/components/searchbar"
-	"github.com/leet-tui/leet-tui/internal/tui/components/topicpanel"
-	"github.com/leet-tui/leet-tui/internal/tui/styles"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/leetcode"
+	"github.com/tzy0608/leet-tui/internal/tui/components/problemlist"
+	"github.com/tzy0608/leet-tui/internal/tui/components/searchbar"
+	"github.com/tzy0608/leet-tui/internal/tui/components/topicpanel"
+	"github.com/tzy0608/leet-tui/internal/tui/styles"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // ProblemsLoadedMsg is sent when problems are fetched from DB.

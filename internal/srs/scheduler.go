@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/leet-tui/leet-tui/internal/db/sqlc"
+	"github.com/tzy0608/leet-tui/internal/db/sqlc"
 )
 
 // Scheduler manages the review queue and processes reviews.

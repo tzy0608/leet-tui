@@ -5,8 +5,8 @@ import (
 
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/tui/styles"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/tui/styles"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // Overlay renders a key binding help overlay.

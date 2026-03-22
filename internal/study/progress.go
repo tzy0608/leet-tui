@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/leet-tui/leet-tui/internal/db/sqlc"
+	"github.com/tzy0608/leet-tui/internal/db/sqlc"
 )
 
 // Stats holds overall progress statistics.

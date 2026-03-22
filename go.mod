@@ -1,4 +1,4 @@
-module github.com/leet-tui/leet-tui
+module github.com/tzy0608/leet-tui
 
 go 1.25.0
 

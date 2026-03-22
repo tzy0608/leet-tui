@@ -6,11 +6,11 @@ import (
 	"fmt"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/leet-tui/leet-tui/internal/config"
-	"github.com/leet-tui/leet-tui/internal/db"
-	"github.com/leet-tui/leet-tui/internal/db/sqlc"
-	"github.com/leet-tui/leet-tui/internal/leetcode"
-	"github.com/leet-tui/leet-tui/internal/tui"
+	"github.com/tzy0608/leet-tui/internal/config"
+	"github.com/tzy0608/leet-tui/internal/db"
+	"github.com/tzy0608/leet-tui/internal/db/sqlc"
+	"github.com/tzy0608/leet-tui/internal/leetcode"
+	"github.com/tzy0608/leet-tui/internal/tui"
 )
 
 // App is the main application lifecycle manager.

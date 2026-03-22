@@ -2,8 +2,8 @@ package statusbar
 
 import (
 	"github.com/charmbracelet/lipgloss"
-	"github.com/leet-tui/leet-tui/internal/tui/styles"
-	"github.com/leet-tui/leet-tui/internal/tui/theme"
+	"github.com/tzy0608/leet-tui/internal/tui/styles"
+	"github.com/tzy0608/leet-tui/internal/tui/theme"
 )
 
 // Bar is the bottom status bar component.
